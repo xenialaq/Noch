@@ -1,0 +1,71 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/device_header">
+
+        <EditTextPreference
+            app:key="device_aliases"
+            app:title="@string/device_aliases_title"
+            app:summary="@string/device_aliases_hint"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/router_header">
+
+        <EditTextPreference
+            app:defaultValue="@string/router_address_default"
+            app:key="router_address"
+            app:title="@string/router_address_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:defaultValue="@string/router_password_default"
+            app:key="router_password"
+            android:inputType="textPassword"
+            app:title="@string/router_password_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/ariang_header">
+
+        <EditTextPreference
+            app:defaultValue="@string/ariang_addresses_default"
+            app:key="ariang_addresses"
+            app:title="@string/ariang_addresses_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/access_point_header">
+
+        <EditTextPreference
+            app:defaultValue="@string/access_point_address_range_default"
+            app:key="access_point_address_range"
+            app:title="@string/access_point_address_range_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <MultiSelectListPreference
+            app:entries="@array/access_point_model_entries"
+            app:entryValues="@array/access_point_model_values"
+            app:key="access_point_brand"
+            app:title="@string/access_point_model_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="access_point_password"
+            android:inputType="textPassword"
+            app:title="@string/access_point_password_title"
+            app:useSimpleSummaryProvider="true" />
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:dependency="sync"-->
+<!--            app:key="attachment"-->
+<!--            app:summaryOff="@string/attachment_summary_off"-->
+<!--            app:summaryOn="@string/attachment_summary_on"-->
+<!--            app:title="@string/attachment_title" />-->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<resources>
+    <!-- Access Point Model Preference -->
+    <string-array name="access_point_model_entries">
+        <item>TP-LINK</item>
+        <item>Mercury</item>
+    </string-array>
+
+    <string-array name="access_point_model_values">
+        <item>tp-link</item>
+        <item>mercury</item>
+    </string-array>
+</resources>

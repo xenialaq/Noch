@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="xyz.mnch.noch.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_luci"
+        android:name="xyz.mnch.noch.ui.luci.LuciFragment"
+        android:label="@string/menu_luci"
+        tools:layout="@layout/fragment_webview" />
+    <fragment
+        android:id="@+id/nav_ariang_list"
+        android:name="xyz.mnch.noch.ui.ariang.AriangListFragment"
+        android:label="@string/menu_ariang_list"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/nav_ariang"
+        android:name="xyz.mnch.noch.ui.ariang.AriangFragment"
+        android:label="@string/menu_ariang"
+        tools:layout="@layout/fragment_webview" />
+    <fragment
+        android:id="@+id/nav_access_point_list"
+        android:name="xyz.mnch.noch.ui.access_point.AccessPointListFragment"
+        android:label="@string/menu_access_point"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/nav_access_point"
+        android:name="xyz.mnch.noch.ui.access_point.AccessPointFragment"
+        android:label="@string/menu_access_point"
+        tools:layout="@layout/fragment_webview" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="xyz.mnch.noch.SettingsActivity$SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/settings_activity" />
+</navigation>

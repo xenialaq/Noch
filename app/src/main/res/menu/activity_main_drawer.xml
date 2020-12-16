@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homebank"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_luci"
+            android:icon="@drawable/network_modem"
+            android:title="@string/menu_luci" />
+        <item
+            android:id="@+id/nav_ariang_list"
+            android:icon="@drawable/downloader_arrow"
+            android:title="@string/menu_ariang" />
+        <item
+            android:id="@+id/nav_access_point_list"
+            android:icon="@drawable/network_wireless"
+            android:title="@string/menu_access_point" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/preferences_desktop"
+            android:title="@string/menu_settings" />
+    </group>
+</menu>

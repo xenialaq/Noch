@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Noch</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Noch Network Tool</string>
+    <string name="nav_header_subtitle">name kotlin is so lame it\'s not even a word..in fact all android devs should immediately stop their work til google renames the language</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_luci">Luci</string>
+    <string name="menu_ariang">AriaNG</string>
+    <string name="menu_access_point">Access Point</string>
+    <string name="error_msg_no_biometric_hardware">error_msg_no_biometric_hardware</string>
+    <string name="error_msg_biometric_hw_unavailable">error_msg_biometric_hw_unavailable</string>
+    <string name="error_msg_biometric_not_setup">error_msg_biometric_not_setup</string>
+    <string name="auth_title">Authentication</string>
+    <string name="auth_subtitle"></string>
+    <string name="auth_description">Use your biometrics to validate.</string>
+    <string name="error_msg_auth_error">error_msg_auth_error</string>
+    <string name="error_msg_auth_failed">error_msg_auth_failed</string>
+    <string name="menu_device">Device</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="menu_settings">Settings</string>
+    <string name="router_address_title">Address</string>
+    <string name="router_password_title">Password</string>
+    <string name="router_header">Router</string>
+    <string name="ariang_header">AriaNG</string>
+    <string name="ariang_addresses_title">Address</string>
+    <string name="access_point_header">Access Point</string>
+    <string name="access_point_model_title">Models</string>
+    <string name="access_point_address_range_title">IP Range</string>
+    <string name="ariang_addresses_default">192.168.2.1</string>
+    <string name="router_address_default">192.168.2.1</string>
+    <string name="access_point_address_range_default">192.168.2.1/24</string>
+    <string name="menu_ariang_list">AriaNG</string>
+    <string name="access_point_password_title">Password</string>
+    <string name="device_aliases_title">Aliases</string>
+    <string name="device_header">Device</string>
+    <string name="device_aliases_hint">IP Address, Name</string>
+    <string name="router_password_default">password</string>
+</resources>
